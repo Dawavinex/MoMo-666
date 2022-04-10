@@ -32,7 +32,7 @@ jobs:
            python-version: 3.7
            
       - name: 'Install requirements'
-        run: pip install -r ./auto-momo/requirements.txt
+        run: pip install -r ./momo-share-master/auto-momo/requirements.txt
         
       - name: 'Working'
         env:
